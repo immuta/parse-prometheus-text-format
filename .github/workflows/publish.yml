@@ -17,6 +17,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@pmuir'
       - run: npm ci
-      - run: npm publish --access public
+      - run: npm publish --access public --scope @pmuir
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
