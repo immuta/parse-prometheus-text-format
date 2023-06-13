@@ -1,6 +1,6 @@
 {
   "name": "parse-prometheus-text-format",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Parses Prometheus text format into JavaScript objects",
   "main": "dist/parse-prometheus-text-format.cjs.js",
   "module": "dist/parse-prometheus-text-format.esm.js",
@@ -32,6 +32,6 @@
     "dist"
   ],
   "publishConfig": {
-    "@pmuir:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
