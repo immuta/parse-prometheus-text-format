@@ -1,5 +1,5 @@
 {
-  "name": "parse-prometheus-text-format",
+  "name": "@pmuir/parse-prometheus-text-format",
   "version": "1.2.11",
   "description": "Parses Prometheus text format into JavaScript objects",
   "main": "dist/parse-prometheus-text-format.cjs.js",
